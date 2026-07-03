@@ -38,7 +38,7 @@ public class insertAtPosition {
             tail = tail.next;
         }   
 
-        head = Solution.inserAtPositionK(head , 10 , 3);
+        head = Solution.inserAtPositionK(head , 10 , 0);
         
         while (head!=null){
             System.out.println(head.val);
