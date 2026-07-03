@@ -8,9 +8,9 @@ class Solution {
             current = current.next;
         }
         ListNode newNode = new ListNode (val);
-        ListNode temp = current.next;
+        newNode.next = current.next;
         current.next = newNode;
-        newNode.next = temp;
+
         return dummy.next;
     }
 
